@@ -3,7 +3,7 @@ import aboutPic from './images/aboutPic.jpg'
 function AboutUs() 
 {
   return (
-    <div className="bg-gray-100 min-h-screen flex flex-col items-center py-10">
+    <div className="min-h-screen flex flex-col items-center py-10">
       <div className="max-w-5xl w-full px-4 md:px-8">
         <div className='flex display-center'>
         <img src={aboutPic} className="w-12 h-12 object-cover rounded-full" />
