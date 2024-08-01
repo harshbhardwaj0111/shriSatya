@@ -11,7 +11,7 @@ function SliderMain() {
   };
 
   const prevSlide = () => {
-    setCurrentIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length);
+    setCurrentIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length)
   };
 
   return (
