@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from './images/contant3.png';
+import Logo from '../images/contant3.png';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 function SatyaFooter() {
     return (
@@ -12,13 +12,18 @@ function SatyaFooter() {
                         <p><i>“Best Solution - Best Growth”</i></p>
                     </div>
                     <div className="w-full md:w-1/3 px-4 mb-4 md:mb-0">
-                        <h3 className="text-xl underline mb-4">Useful Links</h3>
-                        <nav className="flex flex-col space-y-2 text-lg">
-                            <a href="#home" className="text-white hover:text-gray-300">Home</a>
-                            <a href="#about" className="text-white hover:text-gray-300">About us</a>
-                            <a href="#login" className="text-white hover:text-gray-300">Login</a>
-                            <a href="#sign" className="text-white hover:text-gray-300">Sign up</a>
-                        </nav>
+                    <h3 className="text-xl underline mb-4">Services</h3>
+                        <div className='pl-7'>
+                            <ul className=''>
+                                <li>Web Designing</li>
+                                <li>Web Development</li>
+                                <li>Software Development</li>
+                                <li>Maintenance Services</li>
+                                <li>Online Advertisement</li>
+                                <li>Logo Designing</li>
+                                <li>E-commerce</li>
+                            </ul>
+                        </div>
                     </div>
                     <div className="w-full md:w-1/3 px-4">
                         <h3 className="text-xl underline mb-4">Contact Information</h3>
@@ -26,7 +31,7 @@ function SatyaFooter() {
                         <p>Circular Road, Sirsa(125055),Haryana</p>
                         <p><i className="fas fa-phone"></i> +91-1666-224455</p>
                         <p><i className="fas fa-envelope"></i> info@shrisatyait.com</p>
-                        <p>Business Hours (9:00 AM to 6:30 PM) IST</p>
+                        <p>Business Hours (9:00 AM to 6:00 PM) IST</p>
                         <div className="flex space-x-7 mt-2">
                             <i className="fab fa-linkedin"></i>
                             <i className="fab fa-facebook"></i>
@@ -35,8 +40,8 @@ function SatyaFooter() {
                     </div>
                 </div>
                 <div className="flex justify-between items-center bg-gray-200 text-white py-4 mt-8">
-                    <p className=" text-black">&copy; 2015 All Rights are Reserved.</p>
-                    <p><a href="#" className="text-black"><i className="fas fa-arrow-circle-up"></i> Back to top </a></p>
+                    <p className=" text-black"> &nbsp; &copy; 2015 All Rights are Reserved.</p>
+                    <p><a href="#" className="text-black"><i className="fas fa-arrow-circle-up"></i> Back to top &nbsp; </a></p>
                 </div>
             </div>
         </footer>
